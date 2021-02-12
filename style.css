@@ -34,7 +34,17 @@ h1 span+span{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-bottom: 10% !important;
+}
+.content{
+	margin: 10% 0;
+}
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer span{
+	margin: .125rem;
 }
 
 body {
@@ -263,5 +273,9 @@ input[type=range]::-ms-thumb {
 	}
 	h1 span+span{
 		font-size: 3vw;
+	}
+	footer{
+		justify-content: space-evenly;
+		margin: 0 10%;
 	}
 }
