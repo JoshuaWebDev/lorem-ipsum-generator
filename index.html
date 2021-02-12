@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Lumena Language Lorem Ipsum</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<section class="header">
+				<h1>
+					<span>Lumena Language </span>
+					<span>Lorem Ipsum</span>
+				</h1>
+			</section>
+			<section class="main">
+				<form>
+					<label for="paragraphsNumber">Quantos parágrafos de militância você quer?</label>
+					<div class="paragraphCounter">
+						<input type="range" id="paragraphsRange" min="1" max="10" value="2">
+						<input type="number" id="paragraphsNumber" min="1" max="10" value="2">
+					</div>
+				</form>
+					<button class="send">Desconstruir!</button>
+			</section>
+			<section class="content">
+				<div class="result"></div>
+			</section>
+		</main>
+    <script src="data.js"></script>
+		<script src="script.js"></script>
+  </body>
+</html>
