@@ -33,7 +33,7 @@ function generateText() {
 	let resultString = [];
 	for (let i = 0; i < parseInt(field.value); i++) {
 		resultString.push(
-			`<p>${generateParagraph()} </p>`
+			`${generateParagraph()} <br> <br>`
 		)
 		result.innerHTML = resultString.join("");
 	}
@@ -53,7 +53,19 @@ function shuffleArrays(array) {
 
 // length of paragraph calculating function
 function calcParagraphLength() {
-	return Math.ceil(Math.random() * 3);
+	return Math.ceil(Math.random() * 2);
 }
 
 send.addEventListener('click', generateText)
+
+result.addEventListener('click', function(event){
+	document.execCommand("copy");
+})
+
+result.addEventListener("copy", function(event){
+	if(event.clipboardData) {
+		event.clipboardData.setData('text/plain', result.textContent);
+		alert("Textão copiado.")
+	}
+	event.preventDefault();
+})

@@ -101,6 +101,11 @@ label{
 	box-shadow: .25rem .25rem rgba(210, 105, 30, 0.4);
 }
 
+.result:hover {
+	cursor: pointer;
+	font-weight: 700;
+}
+
 .twitter{
 	color: chocolate;
 	font-weight: 700;
@@ -263,9 +268,6 @@ input[type=range]::-ms-thumb {
 	}
 	footer > div:first-of-type{
 		font-size: .875rem;
-	}
-	footer > div:first-of-type i:first-of-type{
-		display: none;
 	}
 }
 
