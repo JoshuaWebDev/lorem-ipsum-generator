@@ -1,22 +1,23 @@
 const text = [
 	[
-		"Olhe, meu amigo,",
-		"Pegue a visão,",
-		"Resolva seu B.O,",
-		"Pois é, mas"
+		"Julgou o caráter",
+		"Corrompeu as desconstruções",
+		"Prestou desacolhimento",
+		"Recusou internalizar"
 	],
 	[
-		"se organize.",
-		"falador passa mal, rapaz.",
-		"você errou grandão.",
-		"isso é muito grave.",
+		"dos indivíduos silenciados",
+		"das mulheres trans",
+		"da reparação histórica",
+		"dos gays e não-binários",
+		"da mulher branca"
 	],
 	[
-		"O que você tá fazendo é",
-		"Tá acontecendo aqui um movimento pra",
-		"O que nós estamos vendo é um interesse seu de",
-		"O Brasil tá vendo a sua atitude que na verdade serve pra",
-		"Estão tentando reduzir a experiência da mulher fenotipicamente negra a um ato pra"
+		"perpetuando",
+		"para resolver",
+		"com a intenção de",
+		"na tentativa de",
+		"querendo"
 	],
 	[
 		"promover a deslegitimação",
